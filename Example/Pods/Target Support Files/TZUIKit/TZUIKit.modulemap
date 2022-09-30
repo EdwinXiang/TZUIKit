@@ -1,0 +1,6 @@
+framework module TZUIKit {
+  umbrella header "TZUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

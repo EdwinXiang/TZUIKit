@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TZUIKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TZUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TZUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TZUIKit: b306c81d011da3bec8fd3bb6b233812c93a1c30a
+
+PODFILE CHECKSUM: 24747b9fceb3c9c2b49b4242d25f7bb2fd0e94d9
+
+COCOAPODS: 1.11.3
